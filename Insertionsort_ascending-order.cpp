@@ -1,5 +1,5 @@
 #include<iostream>
-using namespace std;
+using namespace std; 
 
 int main()
 {
@@ -11,7 +11,9 @@ for(int i=0;i<n;i++)
 {
 cin>>arr[i];
 }
-for(int i=1;i<n;i++)
+//we'll comment how the insertion sort alogo is actually working
+for(int i=1;i<n;i++)//This for loop basically seperates the sorted and usorted parts by reserving the zero element as sorted
+
 {
 int current= arr[i];
 int j=i-1;
